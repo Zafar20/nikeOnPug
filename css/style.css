@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'arial';
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.header {
+  background: url(../img/headerbg.jpg) no-repeat center center/cover;
+  height: 700px;
+}
+
+.header__row {
+  height: 100%;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__nav-link {
+  font-size: 18px;
+  color: #4d4d4d;
+  font-weight: bold;
+  padding: 20px 24px 20px 28px;
+  display: block;
+  -webkit-transition: color 500ms, background 500ms;
+  transition: color 500ms, background 500ms;
+}
+
+.header__nav-link:hover {
+  background: #c1bc45;
+  color: white;
+}
+
+.header__content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__content-title {
+  font-size: 100px;
+  color: #c0bc45;
+  line-height: 72px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.header__content-text {
+  font-size: 18px;
+  color: #4d4d4d;
+}
+
+.header__content-text span {
+  color: #000000;
+  font-weight: 900;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.header__main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main {
+  margin: 88px 0 100px 0;
+}
+
+.main__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__left {
+  max-width: 540px;
+  width: 100%;
+}
+
+.main__left-title {
+  font-size: 20px;
+  color: #000000;
+  line-height: 15px;
+  margin-top: 21px;
+  margin-bottom: 15px;
+}
+
+.main__left-title span {
+  font-size: 25px;
+  line-height: 18px;
+}
+
+.main__left-text {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.main__right {
+  max-width: 540px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__right-item {
+  border: 4px solid #aeaeae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__right-item:hover {
+  border: 4px solid #f0efb6;
+  cursor: pointer;
+}
+
+.main__right-img {
+  padding: 13px 38px 14px 23px;
+}
+
+.main__right-title {
+  font-size: 20px;
+  color: #000000;
+  line-height: 16px;
+  margin: 15px 0;
+}
+
+.main__right-text {
+  color: #919191;
+  line-height: 24px;
+}
+
+.footer {
+  background: #eee9e9;
+  padding: 100px 0 30px 0;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__nav-link {
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid transparent;
+}
+
+.footer__nav-link:hover {
+  color: #ff0000;
+  border-color: #ff0000;
+}
